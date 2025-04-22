@@ -1,20 +1,27 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
-import './App.css'
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import ForgotPassword from './forgot-password'; 
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router";
 
-function App() {
+import Navbar from "./components/Navbar";
+import AboutUs from "./Pages/AboutUs";
+import ContactUs from "./Pages/ContactUs";
+import SignIn from "./Pages/SignIn";
+import SignUp from "./Pages/SignUp";
+import ForgotPassword from "./Pages/ForgotPassword.jsx";
+
+export default function App() {
   return (
-    <Router>
+    <div className="app">
+      <BrowserRouter>
+      <Navbar />
       <Routes>
-        <Route path="/forgot-password" element={<ForgotPassword />} />
-        {/* Other routes */}
+        <Route path="/about-us" element={<AboutUs />} />
+        {/* <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/sign-up" element={<SignUp />} /> */}
+        {/* <Route path="/forget-password" element={<ForgotPassword />} /> */}
       </Routes>
-    </Router>
+      </BrowserRouter>
+    </div>
   );
 }
-
-export default App;
