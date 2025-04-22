@@ -18,11 +18,17 @@ export default function App() {
       <Navbar />
       <Routes>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
         <Route path="/" element={<HomePage />} />
         <Route path="/index" element={<HomePage />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/homepage" element={<HomePage />} />
+=======
+        <Route path="/" element={<HomePage />} />
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/home-page" element={<HomePage />} />
+>>>>>>> Stashed changes
 =======
         <Route path="/" element={<HomePage />} />
         <Route path="/home" element={<HomePage />} />
