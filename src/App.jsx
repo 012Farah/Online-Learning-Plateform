@@ -16,10 +16,10 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/about-us" element={<AboutUs />} />
-        {/* <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/sign-in" element={<SignIn />} />
-        <Route path="/sign-up" element={<SignUp />} /> */}
-        {/* <Route path="/forget-password" element={<ForgotPassword />} /> */}
+        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/forget-password" element={<ForgotPassword />} />
       </Routes>
       </BrowserRouter>
     </div>
