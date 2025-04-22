@@ -20,6 +20,7 @@ export default function App() {
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/forget-password" element={<ForgotPassword />} />
+        
       </Routes>
       </BrowserRouter>
     </div>
