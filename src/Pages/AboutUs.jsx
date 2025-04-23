@@ -2,6 +2,7 @@
 
 export default function AboutUs() {
   return (
+    <>
     <div className="about-container">
       <section className="hero-section">
         <h1>Welcome to LearnHub</h1>
@@ -57,13 +58,18 @@ export default function AboutUs() {
         </div>
       </section>
 
-      <section className="team-section">
+      {/* <section className="team-section">
         <h2>Meet Our Team</h2>
         <p>
           Our diverse team of educators, technologists, and learning specialists 
           work tirelessly to create the best online learning experience.
         </p>
-      </section>
+      </section> */}
     </div>
+
+    
+
+    </>
+    
   );
 }
