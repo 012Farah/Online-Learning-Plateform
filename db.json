@@ -1,0 +1,39 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "JavaScript Basics",
+        "description": "Learn JS from scratch",
+        "image": "https://via.placeholder.com/300x150",
+        "instructor": "John Doe"
+      },
+      {
+        "id": 2,
+        "title": "React Mastery",
+        "description": "Build modern UI with React",
+        "image": "https://via.placeholder.com/300x150",
+        "instructor": "Jane Smith"
+      }
+    ],
+    "lessons": [
+      {
+        "id": 1,
+        "courseId": 1,
+        "title": "Variables in JS",
+        "videoUrl": "https://www.youtube.com/embed/W6NZfCO5SIk"
+      },
+      {
+        "id": 2,
+        "courseId": 1,
+        "title": "Functions in JS",
+        "videoUrl": "https://www.youtube.com/embed/hdI2bqOjy3c"
+      },
+      {
+        "id": 3,
+        "courseId": 2,
+        "title": "React Components",
+        "videoUrl": "https://www.youtube.com/embed/MhkGQAoc7bc"
+      }
+    ]
+  }
+  
