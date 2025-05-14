@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { ChevronRight, BookOpen, Clock, Award, BarChart3, BookMarked, Settings, Bell, LogOut, Search } from 'lucide-react';
+import { ChevronRight, BookOpen, Clock, Award, BarChart3, BookMarked, Settings, Bell, LogOut, Search, GraduationCap } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
@@ -66,6 +66,7 @@ const DashboardLayout = () => {
           <nav className="space-y-1">
             {[
               { name: 'Dashboard', icon: BookMarked },
+              { name: 'Courses', icon: GraduationCap },
               { name: 'My Courses', icon: BookOpen },
               { name: 'Calendar', icon: Clock },
               { name: 'Achievements', icon: Award },

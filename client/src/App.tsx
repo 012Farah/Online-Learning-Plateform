@@ -17,6 +17,7 @@ import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
 import DashboardLayout from './components/layout/DashboardLayout';
 import DashboardHome from './pages/dashboard/DashboardHome';
+import Courses from './pages/dashboard/Courses';
 import MyCourses from './pages/dashboard/MyCourses';
 import Calendar from './pages/dashboard/Calendar';
 import Achievements from './pages/dashboard/Achievements';
@@ -41,6 +42,7 @@ const App = () => {
           <Routes>
             <Route path="/dashboard" element={<DashboardLayout />}>
               <Route index element={<DashboardHome />} />
+              <Route path="courses" element={<Courses />} />
               <Route path="my-courses" element={<MyCourses />} />
               <Route path="calendar" element={<Calendar />} />
               <Route path="achievements" element={<Achievements />} />
