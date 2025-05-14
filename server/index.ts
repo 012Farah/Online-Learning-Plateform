@@ -13,7 +13,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:9000',
+  origin: 'http://localhost:8081',
   credentials: true
 }));
 
@@ -23,8 +23,8 @@ app.use(bodyParser.json());
 
 const server = http.createServer(app);
 
-server.listen(9000, ()=>{
-    console.log("server running on http://localhost:9000/")
+server.listen(3000, ()=>{
+    console.log("server running on http://localhost:3000/")
 })
 
 const MONGO_USERNAME = process.env.MONGO_USERNAME;
